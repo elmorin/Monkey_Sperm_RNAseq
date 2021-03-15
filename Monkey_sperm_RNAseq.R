@@ -17,12 +17,6 @@ library(edgeR)
 library(limma)
 library(janitor)
 
-#exon <- read.table('/Users/elyse.morin/Documents/Monkey Sperm/MacaM_Rhesus_Genome_Annotation_v7.8.2.gtf')
-#exon_simp <- exon[exon$V3=="exon",]
-#keep <- c("V1","V4","V5","V6","V7","V16")
-#exon_simp2 <- exon_simp[,(names(exon_simp) %in% keep)]
-#write.table(exon_simp2, file='/Users/elyse.morin/Documents/Monkey Sperm/MacaM_exon.bed', sep='\t', quote=FALSE, col.names=FALSE, row.names = FALSE)
-
 setwd('/Users/elyse.morin/Documents/Dropbox_backup/Monkey Sperm/coverage text files/')
 
 #coverage historgram
